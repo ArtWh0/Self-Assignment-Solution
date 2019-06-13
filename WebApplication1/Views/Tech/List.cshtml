@@ -1,0 +1,20 @@
+﻿@using TechRent.WebUI.Models
+@using TechRent.WebUI.Ht_Helping
+@using TechRent.Domain.Entities
+@model TechListViewModel
+
+@{
+    ViewBag.Title = "Tech";
+}
+
+@foreach (var p in @Model.Teches)
+{
+    
+ 
+
+    @Html.Partial("TechSummary", p)
+    
+    }
+<div class="btn-group pull-right">
+    @Html.PageLinks(Model.Paging_Info, x => Url.Action("List", new { page = x, category = Model.CurrentCategory }))
+</div>

@@ -1,0 +1,32 @@
+﻿@model TechRent.Domain.Entities.ShippingDetails
+
+@{
+    ViewBag.Title = "GameStore: форма заказа";
+}
+
+<h2>Process your order now!</h2>
+<p>Please enter your contact details and we will contact you immediately! You will also receive your order information by mail.</p>
+
+
+@using (Html.BeginForm())
+{    @Html.ValidationSummary();
+   <h3>Contact details</h3>
+    <div class="form-group">
+        <label>Firstname:</label>
+        @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>Lastname:</label>
+        @Html.TextBoxFor(x => x.LastName, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <label>EMail:</label>
+        @Html.TextBoxFor(x => x.EMail, new { @class = "form-control" })
+    </div>
+
+    <div class="text-center">
+        <input class="btn btn-primary" type="submit" value="Process the order" />
+    </div>
+}
