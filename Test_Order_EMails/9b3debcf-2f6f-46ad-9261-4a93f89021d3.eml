@@ -1,0 +1,15 @@
+X-Sender: techrent@example.com
+X-Receiver: orders@example.com
+MIME-Version: 1.0
+From: techrent@example.com
+To: orders@example.com
+Date: 13 Jun 2019 23:15:37 +0300
+Subject: Your order on site 'TechRent' is processed
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+VGhlIG9yZGVyIGlzIHByb2Nlc3NlZCENCi0tLQ0KVGVjaG5pY3M6DQo1IHggS2FtQVog
+dHJ1Y2sgLSAoNDIwLDAwIGV1cm8pIGFuZCArMSBwb2ludHMgNSB4IEtvbWF0c3UgY3Jh
+bmUgLSAoNDYwLDAwIGV1cm8pIGFuZCArMiBwb2ludHMgIFRvdGFsIHByaWNlOiA4ODAs
+MDAgZXVybyBhbmQgVG90YWwgcG9pbnRzOiAzIC0tLQ0KQ29udGFjdCBkZXRhaWxzOg0K
+QWxleA0KV2h5bm4NCmV4YW1wbGVfQVdAZ21haWwuY29tDQotLS0NCg==
