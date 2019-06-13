@@ -160,6 +160,8 @@
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
+    <Content Include="TechRent.mdf" />
+    <Content Include="TechRent_log.ldf" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -195,7 +197,6 @@
     <Content Include="Views\Shared\TechSummary.cshtml" />
     <Content Include="Views\Navigate\Menu.cshtml" />
     <Content Include="Views\Cart\Index.cshtml" />
-    <Content Include="Views\Shared\DaysSum.cshtml" />
     <Content Include="Views\Cart\Summary.cshtml" />
     <Content Include="Views\Cart\Checkout.cshtml" />
     <Content Include="Views\Cart\Completed.cshtml" />
@@ -206,9 +207,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\TechRent.Domain.csproj">
       <Project>{37e53f23-34d3-4d8f-80e0-b271740dc186}</Project>

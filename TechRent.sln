@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechRent.WebUI", "WebApplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechRent.UnitTests", "UnitTestProject1\TechRent.UnitTests.csproj", "{04B1C1FF-59D9-4BB7-A3FC-E0D930EF39E4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{498F472F-1E92-4E5B-82E6-74A5EC012B0B}"
+	ProjectSection(SolutionItems) = preProject
+		TechRent.mdf = TechRent.mdf
+		TechRent_log.ldf = TechRent_log.ldf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
